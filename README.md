@@ -1,2 +1,14 @@
-# simulator
-팀 시뮬레이터 게임입니다. 바이브 코딩을 통해 무료 운영을 위해 만들어 봤습니다.
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
